@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "timereporting", "timereporting", "{20CE6F5F-31DD-4E9A-9C6E-392AC1586CCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeReportingLib", "timereporting\lib\TimeReportingLib.csproj", "{1C9C388D-9E79-4C3C-8122-4294C46FBBE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeReportingTest", "timereporting\test\TimeReportingTest.csproj", "{FB272950-E4EE-48C4-B6BD-B2531E317C63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C9C388D-9E79-4C3C-8122-4294C46FBBE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C9C388D-9E79-4C3C-8122-4294C46FBBE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C9C388D-9E79-4C3C-8122-4294C46FBBE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C9C388D-9E79-4C3C-8122-4294C46FBBE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB272950-E4EE-48C4-B6BD-B2531E317C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB272950-E4EE-48C4-B6BD-B2531E317C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB272950-E4EE-48C4-B6BD-B2531E317C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB272950-E4EE-48C4-B6BD-B2531E317C63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1C9C388D-9E79-4C3C-8122-4294C46FBBE0} = {20CE6F5F-31DD-4E9A-9C6E-392AC1586CCE}
+		{FB272950-E4EE-48C4-B6BD-B2531E317C63} = {20CE6F5F-31DD-4E9A-9C6E-392AC1586CCE}
+	EndGlobalSection
+EndGlobal
